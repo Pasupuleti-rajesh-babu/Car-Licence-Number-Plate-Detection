@@ -17,6 +17,11 @@ After having all the characters, passing the characters one by one into our trai
 Then a building a web app using HTML, CSS, Java Script and Flask.
 After uploading car image on the website, the car details of respective owners will be displayed on the website.
 </p>
+<h2> Architecture</h2>
+<img width=400 src= "https://github.com/Pasupuleti-rajesh-babu/detecting_license_plate/blob/main/README_doc/pic1.png" >
+<p>The flowchart of license plate recognition system. It includes three parts: license plate detection, character segmentation, and character recognition.</p>
+<img width=400 src= "https://github.com/Pasupuleti-rajesh-babu/detecting_license_plate/blob/main/README_doc/pic2.png" >
+<p>The proposed AlexNet convolutional network Architecture for license plate detection. It combines five convolutional layers to fully convolutional block to generate a predicted output.</p>
 
 <h2>MODULES DESCRIPTION</h2>
 <p>
@@ -30,6 +35,7 @@ Haar Cascade is a machine learning-based approach where a lot of positive and ne
 
 
 </p>
+<img width=300 src= "https://github.com/Pasupuleti-rajesh-babu/detecting_license_plate/blob/main/README_doc/pic3.png" >
 <h2>Character Segmentation </h2>
 <p> 
 Now we have to segment our plate number. The input is the image of the plate, we will have to be able to extract the uni character images. 
@@ -39,6 +45,7 @@ In a system of automatic reading of number plates. Segmentation is one of the mo
  We now again use contour detection and some parameter tuning to extract the characters. 
 
 </p>
+<img width=300 src= "https://github.com/Pasupuleti-rajesh-babu/detecting_license_plate/blob/main/README_doc/pic4.png" >
 <h2>Character Recognition </h2>
 <p>
   
@@ -49,6 +56,8 @@ The method proposed extracted the salient features of training images to establi
 The algorithm used CNN for feature extraction and adopted a kernel-based ELM classifier for character classification. In addition, many recognition algorithms based on extracted features can be applied to LPCR, such as AlexNet.
 
 </p>
+
+<img width=300 src= "https://github.com/Pasupuleti-rajesh-babu/detecting_license_plate/blob/main/README_doc/pic5.png" >
 <h2>  Creating a model</h2>
 <p>
 
@@ -83,3 +92,4 @@ We have successfully started the Flask server! Open the browser and go to this a
 </p>
 
 <h2>Result</h2>
+<img width=800 src= "https://github.com/Pasupuleti-rajesh-babu/detecting_license_plate/blob/main/README_doc/pic6.png" >
